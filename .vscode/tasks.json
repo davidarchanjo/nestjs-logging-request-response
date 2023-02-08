@@ -1,0 +1,7 @@
+{
+    "command": "yarn",
+    "type": "shell",
+    "args": [
+        "build"
+    ]
+}
