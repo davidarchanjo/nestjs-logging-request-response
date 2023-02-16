@@ -29,7 +29,7 @@ This command starts the application with the HTTP server listening on the port d
 # TESTING
 Once the application is running, open another terminal console to issue some request to the application and generate some logging by using the [cURL](https://curl.se/) command line tool.
 > 📌 You can use Postman for this purpose if you like
-## `GET`
+## GET
 | Command | Output |
 | :------ | :----- |
 | `curl --request GET 'http://localhost:3000?foo=bar&bar=foo'` | ![get](./assets/get.png) |
@@ -38,19 +38,19 @@ Once the application is running, open another terminal console to issue some req
 | :------ | :----- |
 | `curl --request GET 'http://localhost:3000?foo=bar&bar=foo'` | ![get](./assets/get_qp.png) |
 
-## `POST`
+## POST
 | Command | Output |
 | :------ | :----- |
 | `curl --request POST 'http://localhost:3000' --header 'Content-Type: application/json' --data-raw '{"bar": 1, "foo": "bar"}'` | ![get](./assets/post.png) |
 
 
-## `PUT`
+## PUT
 | Command | Output |
 | :------ | :----- |
 | `curl --request PUT 'http://localhost:3000/1' --header 'Content-Type: application/json' --data-raw '{"bar": "foo"}'` | ![get](./assets/put.png) |
 
 
-## `DELETE`
+## DELETE
 | Command | Output |
 | :------ | :----- |
 | `curl --request DELETE 'http://localhost:3000/1'` | ![get](./assets/delete.png) |
