@@ -33,7 +33,7 @@ Once the application is running, open another terminal console to issue some req
 | Command | Output |
 | :------ | :----- |
 | `curl --request GET 'http://localhost:3000?foo=bar&bar=foo'` | ![get](./assets/get.png) |
-### `QUERY-PARAMETERS`
+### QUERY-PARAMETERS
 | Command | Output |
 | :------ | :----- |
 | `curl --request GET 'http://localhost:3000?foo=bar&bar=foo'` | ![get](./assets/get_qp.png) |
